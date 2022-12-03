@@ -1,0 +1,46 @@
+{
+    "navbar": {
+        "home": "Home",
+        "sobre-mi": "About Me",
+        "mis-proyectos": "My Proyects",
+        "habilidades": "Skills",
+        "estudios": "Studies",
+        "contactame": "Contact Me",
+        "pregunta-contacto": "¿Do You Want Contact Me?",
+        "boton-cerrar-contacto": "Close"
+    },
+
+    "sobre-mi": {
+        "titulo-sobre-mi": "<span>―</span>About Me",
+        "explicacion-sobre-mi": "My name is Fabrizio Julian Casanova.<br> I am a <span>Full Stack</span>Web Developer born in <span>Vicente Lopez, Argentina.</span><br> I am passionate about programming and all that it entails.<br> Currently it is very difficult not to be dependent on a program that makes our work easier. Whether it is the operating system, the programs that come with it, or the web programming, everything ends up being beneficial to the world.<br><br> My objective is to develop my professional career in the IT world as part of a company that allows me to grow professionally and in turn apply everything I have learned so far to its benefit.",
+        "descargar-cv": "Download CV"
+    },
+
+    "mis-proyectos": {
+        "titulo-mis-proyectos": "<span>―</span>My Proyects",
+        "descripcion-mis-proyectos": "<span>E-commerce </span> intended for the sale of underwear for women and men"
+    },
+
+    "habilidades":{
+        "titulo-habilidades": "<span>―</span> Skills",
+        "descripcion-habilidades": "These are the technologies that I use when developing"
+    },
+
+    "estudios": {
+        "titulo-estudios": "<span>―</span>My Studies",
+        "descripcion-estudios1":"Web Development",
+        "explicacion-estudios1": "Web Development Course at  <span>CoderHouse</span>where <span>HTML, CSS,Bootstrap, Git y GitHub</span>were used.",
+        "descripcion-estudios2": "JavaScript",
+        "explicacion-estudios2": "JavaScript Course at <span>CoderHouse</span>where<span> Node, Dom, Events, AJAX & Fetch, Storage, y Workshop.</span>",
+        "descripcion-estudios3": "React",
+        "explicacion-estudios3": "React Course at <span> CoderHouse</span>where<span> Promeses, APIs, Contexts, States, Routing, Firebase.</span>",
+        "descripcion-estudios4": "Backend",
+        "explicacion-estudios4": "Backend Course at<span> CoderHouse</span>where<span> Express, Templates, SQL, Mongo DB, among others</span>were used."
+    },
+
+    "footer":{
+        "titulo-footer": "Thanks for watching 😊",
+        "descripcion-footer": "2022 Copyright © All Rights Reserved"
+    }
+
+}

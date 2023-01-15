@@ -18,7 +18,8 @@
 
     "mis-proyectos": {
         "titulo-mis-proyectos": "<span>―</span>Mis Proyectos",
-        "descripcion-mis-proyectos": "<span>E-commerce </span> destinado a la venta de ropa interior para mujeres y hombres"
+        "descripcion-mis-proyectos1": "<span>E-commerce </span> destinado a la venta de ropa interior para mujeres y hombres",
+        "descripcion-mis-proyectos2": "<span>E-commerce </span> destinado a la venta de productos tecnologicos relacionados con el mundo de los videojuegos"
     },
 
     "habilidades":{

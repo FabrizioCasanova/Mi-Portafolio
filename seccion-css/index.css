@@ -6,8 +6,7 @@
     font-family: 'Montserrat', sans-serif; 
     scroll-behavior: smooth;
 }
-
-
+    
 /* Inician Estilos de Navbar */
 .navbar{
     background-color: rgb(12, 13, 14)!important;
@@ -341,9 +340,9 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    margin-top: 2%;
+    margin-top: 10%;
     padding: 0px 100px 0px 100px;
-    gap: 4%;
+ 
     align-items: center;
 }
 

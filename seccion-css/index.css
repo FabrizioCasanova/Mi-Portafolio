@@ -3,22 +3,21 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
-    
+
 /* Inician Estilos de Navbar */
-.navbar{
-    background-color: rgb(12, 13, 14)!important;
+.navbar {
+    background-color: rgb(12, 13, 14) !important;
     display: flex;
     flex-wrap: inherit;
-    justify-content: center;
     width: 100%;
     position: fixed;
     z-index: 10;
 }
 
-.navbar-container-language{
+.navbar-container-language {
     margin-left: 15%;
 }
 
@@ -28,11 +27,11 @@
     border-radius: 50%;
 }
 
-.button-navbar-language{
+.button-navbar-language {
     border-radius: 50px;
 }
 
-.navbar>.container-fluid{
+.navbar>.container-fluid {
     justify-content: center;
     gap: 4%;
     margin-left: 3%;
@@ -43,33 +42,33 @@ body[data-aos-duration="400"] [data-aos] {
     transition-duration: 1.1s;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #d2cec8;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: red;
     transition: all .3s;
 }
 
-.btn-outline-danger{
+.btn-outline-danger {
     cursor: pointer;
     padding: 7px;
     margin-right: 15%;
-    font-size: 19px;
-    width: 250px;
-    height: 47px;
+    font-size: 16px;
+    width: 209px;
+    height: 44px;
     border-radius: 11px;
 }
 
-.modal{
+.modal {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(8px);
 }
 
-.titulo-modal{
+.titulo-modal {
     font-style: italic;
     font-size: 29px;
     color: #d2cec8;
@@ -77,26 +76,26 @@ body[data-aos-duration="400"] [data-aos] {
     margin-top: 3%;
 }
 
-.modal-header{
+.modal-header {
     flex-direction: column-reverse;
     border-bottom: none;
 }
 
-.modal-body{
+.modal-body {
     padding-top: 0%;
 }
 
-.modal-content{
+.modal-content {
     background-color: #14141497;
     backdrop-filter: blur(10px);
 }
 
-.modal-footer{
+.modal-footer {
     justify-content: center;
     border-top: none;
 }
 
-.boton-cerrar-modal{
+.boton-cerrar-modal {
     font-weight: 600;
     color: #d2cec8;
     background-color: #f10117d9;
@@ -105,40 +104,40 @@ body[data-aos-duration="400"] [data-aos] {
     transition: opacity .3s;
 }
 
-.boton-cerrar-modal:hover{
+.boton-cerrar-modal:hover {
     color: #d2cec8;
     background-color: #f10117d9;
     opacity: .8;
 }
 
-.btn:first-child:active{
-color: #d2cec8;
-background-color: #f10117d9;
+.btn:first-child:active {
+    color: #d2cec8;
+    background-color: #f10117d9;
 }
 
 /* Finalizan Estilos de Navbar */
 
 
 /* Inician Estilos de "Inicio" */
-.home{
+.home {
     width: 100%;
     height: 100vh;
     display: grid;
     justify-content: center;
     align-items: end;
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/Imagen\ 1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/Imagen\ 1.jpg);
     background-size: cover;
     align-content: center;
     justify-items: center;
 }
 
-.name-in-home{
+.name-in-home {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.my-name{
+.my-name {
     font-size: 80px;
     font-weight: 600;
     margin: auto;
@@ -147,7 +146,7 @@ background-color: #f10117d9;
 }
 
 
-.my-description{
+.my-description {
     font-size: 20px;
     letter-spacing: 3px;
     color: #d2cec8;
@@ -155,19 +154,19 @@ background-color: #f10117d9;
     margin-top: 2%;
 }
 
-.icons-in-home{
+.icons-in-home {
     margin-left: 12%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.link-navbar{
+.link-navbar {
     cursor: pointer;
 }
 
-.fa-brands{
+.fa-brands {
     text-decoration: none;
     font-size: 30px;
     padding: 16px;
@@ -180,15 +179,20 @@ a{
     border-radius: 50px;
 }
 
-.fa-brands:hover{
+.fa-envelope {
+    margin-left: 2px;
+}
+
+.fa-brands:hover {
     background-color: #6e6e6e32;
     transition: background .3s;
 }
+
 /* Finalizan Estilos de "Inicio" */
 
 /* Inician Estilos de "Boton Contactame" */
 
-.boton-contactame{
+.boton-contactame {
     font-size: 30px;
     padding: 12px 13px 13px 13px;
     width: 52px;
@@ -199,17 +203,16 @@ a{
     color: #d2cec8;
 }
 
-.boton-contactame:hover{
-        background-color: #2a2929;
+.boton-contactame:hover {
+    background-color: #2a2929;
 }
 
-.anchor-contactame:hover{
+.anchor-contactame:hover {
     background-color: #2a2929;
     transition: background 0s;
 }
 
-
-.anchor-contactame{
+.anchor-contactame {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,7 +223,7 @@ a{
     cursor: pointer;
 }
 
-.parrafo-contactame{
+.parrafo-contactame {
     margin-bottom: 0;
     color: #d2cec8;
     margin-right: 2%;
@@ -228,25 +231,25 @@ a{
 }
 
 
-/* Finalizan Estiñps de "Boton Contactame"
+/* Finalizan Estilos de "Boton Contactame"
 
 /* Inician Estilos de "Sobre Mi" */
 
-.sobre-mi{
+.sobre-mi {
     width: 100%;
     height: 100vh;
     display: flex;
-    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../img/Imagen\ 2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/Imagen\ 2.jpg);
     background-size: cover;
     border-top: 2px solid #f10117d9;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.image-sobre-mi{
-    
-    width: 380px;
-    height: 602px;
+.image-sobre-mi {
+
+    width: 370px;
+    height: 681px;
     object-fit: cover;
     border-image: round;
     border-radius: 50px 50px;
@@ -255,60 +258,58 @@ a{
     border-right: 10px solid #91190e;
 }
 
-.container-descripcion-sobre-mi{
+.container-descripcion-sobre-mi {
     width: 44%;
 }
 
-.titulo-sobre-mi{
+.titulo-sobre-mi {
     margin-bottom: 4%;
     font-size: italic;
     font-style: italic;
     font-size: 29px;
-    color: rgb(220,220,220);
+    color: rgb(220, 220, 220);
 }
 
-.descripcion-sobre-mi{
-    color: rgb(220,220,220);
+.descripcion-sobre-mi {
+    color: rgb(220, 220, 220);
     line-height: 1.6;
     letter-spacing: 1px;
 }
 
-.palabras-destacadas-sobre-mi{
-    color: #f10117d9 ;
+.palabras-destacadas-sobre-mi {
+    color: #f10117d9;
 }
 
-.fas{
-    font-family: 'Montserrat', sans-serif; 
+.fas {
+    font-family: 'Montserrat', sans-serif;
     display: flex !important;
 }
 
-.fa-download{
+.fa-download {
     margin-left: 38%;
     display: flex;
     gap: 5px;
     margin-top: 7%;
     background-color: #9d1406;
-    padding: 0px;
-    font-size: 15px;
-    /* height: 1%; */
-    width: 21%;
+    padding: 1px;
+    font-size: 14px;
+    width: 22%;
     border: 1px solid #9d1406;
     border-radius: 15px;
-    color: rgb(220,220,220);
+    color: rgb(220, 220, 220);
     transition: all .3s;
     justify-content: center;
     align-items: center;
 }
 
-
-.fa-download:hover{
+.fa-download:hover {
     background-color: #9d150600;
     color: #dd081ad0;
     transition: all .3s;
     border: 1px solid #dd081ad0;
 }
 
-.span-cv-download{
+.span-cv-download {
     margin-left: 2px;
     margin-top: 8%;
 }
@@ -319,50 +320,51 @@ a{
 /* Inician Estilos de "Experiencia" */
 
 
-.mis-proyectos{
+.mis-proyectos {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../img/Imagen\ 3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/Imagen\ 3.jpg);
     background-size: cover;
     border-top: 2px solid #f10117d9;
-    
+
 }
 
-.titulo-mis-proyectos{
+.titulo-mis-proyectos {
     margin-top: 5%;
     font-style: italic;
     font-size: 29px;
-    color: rgb(220,220,220);
+    color: rgb(220, 220, 220);
     text-align: center;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    margin-top: 10%;
+    margin-top: 6%;
     padding: 0px 100px 0px 100px;
- 
+
     align-items: center;
 }
 
-.card{
+.card {
     background-color: rgba(0, 0, 0, 0.5);
     position: initial;
+    width: 21rem;
 }
 
-.foto-proyecto{
+.foto-proyecto {
     width: 92%;
     margin-top: 4%;
     margin-left: 4.3%;
 }
 
-.card-title{
+.card-title {
     text-align: center;
-    color: rgb(220,220,220);
+    color: rgb(220, 220, 220);
 }
 
-.card-body{
+.card-body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
@@ -371,7 +373,7 @@ a{
     text-align: center;
 }
 
-.card-sub-body{
+.card-sub-body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
@@ -380,19 +382,19 @@ a{
     text-align: center;
 }
 
-.descripcion-card{
-    color: rgb(220,220,220);
+.descripcion-card {
+    color: rgb(220, 220, 220);
     margin-bottom: 0;
     font-style: italic;
     margin-top: 10%;
     font-family: -webkit-body;
 }
 
-.span-ecomerce{
+.span-ecomerce {
     color: #f10117d9;
 }
 
-.boton-mis-proyectos{
+.boton-mis-proyectos {
     text-decoration: none;
     font-size: 24px;
     padding: 3px 0px 2px 0px;
@@ -409,32 +411,32 @@ a{
 
 /* Inician Estilos de "Habilidades" */
 
-.habilidades{
+.habilidades {
     display: flex;
     align-items: center;
     width: 100%;
     height: 100vh;
     gap: 7%;
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/Imagen\ 4.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/Imagen\ 4.jpg);
     background-size: cover;
     border-top: 2px solid #f10117d9;
 }
 
-.Container-habilidades{
+.Container-habilidades {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-left: 4%;
 
 }
 
-.card-habilidades{
+.card-habilidades {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(30px);
-    padding: 95px;
+    padding: 85px;
     gap: 30px;
     width: 0;
     height: 0;
@@ -443,30 +445,29 @@ a{
     transition: opacity .3s;
 }
 
-.card-habilidades:hover{
+.card-habilidades:hover {
     cursor: pointer;
     opacity: .8;
 }
 
-.container-imagen-habilidades{
+.container-imagen-habilidades {
     border: solid 1px #91190e;
     padding: 20px;
     background-color: rgb(24, 26, 27);
     border-radius: 50px;
 }
 
-.container-texto-habilidades{
-    margin-left: 4%;
-    margin-bottom: 5%;
+.container-texto-habilidades {
+    margin: auto;
 }
 
-.titulo-habilidades{
+.titulo-habilidades {
     font-size: 19px;
     color: #d2cec8;
     font-weight: 900;
 }
 
-.titulo-seccion-habilidades{
+.titulo-seccion-habilidades {
     text-align: center;
     margin-right: 9%;
     font-size: 29px;
@@ -474,13 +475,13 @@ a{
     font-weight: 900;
 }
 
-.descripcion-habilidades{
+.descripcion-habilidades {
     margin-top: 7%;
     font-size: 16px;
     color: #d2cec8;
 }
 
-.span-habilidades{
+.span-habilidades {
     margin-left: 4%;
     font-size: 19px;
     color: #d2cec8;
@@ -492,8 +493,8 @@ a{
 
 /* Inician Estilos de "Estudios" */
 
-.estudios{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/Imagen\ 5.jpg);
+.estudios {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/Imagen\ 5.jpg);
     background-size: cover;
     border-top: 2px solid #f10117d9;
     width: 100%;
@@ -501,7 +502,7 @@ a{
     padding: 60px 0 0 0;
 }
 
-.titulo-container-estudios{
+.titulo-container-estudios {
     margin-top: 1%;
     margin-bottom: 2%;
     color: #d2cec8;
@@ -510,95 +511,654 @@ a{
     font-weight: 900;
 }
 
-.containers-estudios{
+.containers-estudios {
     text-align: center;
 }
 
-.coma{
+.coma {
     color: #d2cec8;
 }
-.container-estudio{
+
+.container-estudio {
     display: flex;
     margin: 2% auto;
-    padding: 3px;
+    padding: 4px;
     gap: 29px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(30px);
-    max-width: 60%;
+    max-width: 62%;
     align-items: center;
     justify-content: space-around;
 }
 
-.logo-coderhouse{
+.logo-coderhouse {
     width: 71px;
     border-radius: 50px;
 }
 
-.titulo-card-estudio{
+.titulo-card-estudio {
     color: #d2cec8;
     font-size: 24px;
     font-style: italic;
     font-weight: 600;
 }
 
-.descripcion-card-estudio{
+.descripcion-card-estudio {
     color: #d2cec8;
     font-size: 16px;
     margin-top: 2%;
     width: 30%;
 }
 
-.js{
-    gap: 58px;
+.js {
+    gap: 63px;
 }
 
-.react{
-    gap: 82px;
+.react {
+    gap: 97px;
 }
 
-.backend{
-    gap: 62px;
+.backend {
+    gap: 80px;
 }
 
-.detalles-card-estudio{
+.detalles-card-estudio {
     color: #f10117d9;
 }
 
-.footer{
-    bottom: -1.8%;
+.footer {
     width: 100%;
-    margin-top: 3%;
-    background: #080808;;
-    height: 10vh;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    margin-top: 2%;
+    background: #080808;
+    height: 11vh;
+    border-top-left-radius: 21%;
+    border-top-right-radius: 21%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.titulo-footer{
+.titulo-footer {
     color: #f10117d9;
-    margin-top: 20px;
+    margin-top: 22px;
     font-weight: 900;
     font-size: 24px;
     margin-left: 9px;
 }
 
-.parrafo-footer{
+.parrafo-footer {
     color: #d2cec8;
     font-size: 14px;
     margin-right: 15px;
 }
 
-.aos-animate{
+.aos-animate {
     opacity: 1;
     transform: translateZ(0);
 }
 
-span{
+span {
     margin-right: 7px;
     margin-bottom: 5px;
     color: #f10117d9;
+}
+
+/* Responsive */
+
+@media (max-width: 1470px) {
+
+    .fa-download {
+        width: 26%;
+    }
+
+    .titulo-seccion-habilidades {
+        font-size: 28px;
+    }
+
+    .descripcion-habilidades {
+        font-size: 13px;
+    }
+
+    .titulo-habilidades {
+        font-size: 17px;
+    }
+
+    .card-habilidades {
+        padding: 73px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1358px) {
+
+    .container-estudio {
+        max-width: 63%;
+    }
+
+    .logo-coderhouse {
+        width: 65px;
+    }
+
+    .titulo-card-estudio {
+        font-size: 22px;
+    }
+
+    .descripcion-card-estudio {
+        font-size: 15px;
+        width: 42%;
+    }
+
+    .footer {
+        margin-top: 10%;
+    }
+
+}
+
+@media (max-width: 1195px) {
+
+    .navbar-brand {
+        font-size: 14px;
+    }
+
+    .btn-outline-danger {
+        font-size: 12px;
+        width: 175px;
+        height: 36px;
+    }
+
+    .navbar>.container-fluid {
+
+        gap: 2%;
+        margin-left: 3%;
+        padding: 12px;
+
+    }
+
+    .navbar-language {
+        width: 29px;
+        height: 29px;
+    }
+
+    .image-sobre-mi {
+        width: 321px;
+        height: 592px;
+    }
+
+    .my-name {
+        font-size: 58px;
+    }
+
+    .my-description {
+        font-size: 18px;
+    }
+
+    .habilidades {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .fa-brands {
+        font-size: 24px;
+        padding: 11px 13px;
+        width: 52px;
+        height: 49px;
+    }
+
+    .fa-envelope {
+        font-size: 24px;
+        padding: 11px 13px;
+        width: 52px;
+        height: 49px;
+    }
+
+    .parrafo-contactame {
+        font-size: 14px;
+    }
+
+    .fa-download {
+        width: 31%;
+        font-size: 12px;
+        margin-left: 33%;
+    }
+
+    .span-cv-download {
+        margin-top: 10%;
+    }
+
+    .titulo-sobre-mi {
+        font-size: 27px;
+    }
+
+    .descripcion-sobre-mi {
+        font-size: 15px;
+    }
+
+    .Container-habilidades {
+        margin-bottom: 11%;
+        margin-top: 3%;
+        margin-left: 0;
+    }
+
+    .card-habilidades {
+        padding: 80px;
+    }
+
+    .titulo-container-estudios {
+        margin-bottom: 7%;
+    }
+
+    .logo-coderhouse {
+        width: 58px;
+    }
+
+    .titulo-card-estudio {
+        font-size: 18px;
+    }
+
+    .descripcion-card-estudio {
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 12%;
+        height: 10vh;
+    }
+
+}
+
+@media (max-width: 910px) {
+
+    .btn-outline-danger {
+        margin-right: 5%;
+    }
+
+    .navbar-container-language {
+        margin-left: 5%;
+    }
+
+    .my-name {
+        font-size: 40px;
+    }
+
+    .my-description {
+        font-size: 13px;
+    }
+
+    .fa-brands {
+        font-size: 21px;
+        padding: 10px 12px;
+        width: 46px;
+        height: 43px;
+    }
+
+    .fa-envelope {
+        font-size: 21px;
+        padding: 10px 12px;
+        width: 46px;
+        height: 43px;
+    }
+
+    .parrafo-contactame {
+        font-size: 13px;
+    }
+
+    .image-sobre-mi {
+        width: 294px;
+        height: 590px;
+    }
+
+    .descripcion-sobre-mi {
+        font-size: 13px;
+    }
+
+    .fa-download {
+        width: 37%;
+        margin-left: 31%;
+    }
+
+    .span-cv-download {
+        margin-top: 12%;
+        font-size: 11px;
+    }
+
+    .grid {
+        gap: 11%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .descripcion-card {
+        font-size: 13px;
+    }
+
+    .card-habilidades {
+        padding: 72px;
+        gap: 9px;
+    }
+
+    .titulo-habilidades {
+        font-size: 12px;
+    }
+
+    .span-habilidades {
+        font-size: 12px;
+    }
+
+    .descripcion-habilidades {
+        margin-bottom: 1%;
+    }
+
+    .Container-habilidades {
+        margin-bottom: 14%;
+        margin-top: 1%;
+    }
+
+    .container-imagen-habilidades {
+        padding: 15px;
+    }
+
+    .titulo-container-estudios {
+        margin-bottom: 12%;
+    }
+
+    .container-estudio {
+        max-width: 71%;
+        margin: 4% auto;
+    }
+
+    .titulo-card-estudio {
+        font-size: 16px;
+    }
+
+    .js {
+        gap: 50px;
+    }
+
+    .react {
+        gap: 64px;
+    }
+
+    .backend {
+        gap: 47px;
+    }
+
+    .logo-coderhouse {
+        width: 50px;
+    }
+
+    .descripcion-card-estudio {
+        font-size: 13px;
+        width: 54%;
+    }
+
+    .footer {
+        margin-top: 15%;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 31%;
+    }
+
+    .titulo-footer {
+        font-size: 21px;
+    }
+
+    .parrafo-footer {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 720px) {
+    .navbar-brand {
+        font-size: 11px;
+    }
+
+    .navbar-language {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn-outline-danger {
+        font-size: 11px;
+        width: 115px;
+        height: 36px;
+    }
+
+    .my-name {
+        font-size: 29px;
+    }
+
+    .my-description {
+        font-size: 11px;
+    }
+
+    .anchor-contactame {
+        height: 45px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+        padding: 8px 10px;
+        width: 40px;
+        height: 37px;
+    }
+
+    .fa-envelope {
+        font-size: 20px;
+        padding: 8px 10px;
+        width: 40px;
+        height: 37px;
+    }
+
+    .sobre-mi {
+        flex-direction: column;
+    }
+
+    .image-sobre-mi {
+        width: 231px;
+        height: 380px;
+    }
+
+    .titulo-sobre-mi {
+        display: none;
+    }
+
+    .descripcion-sobre-mi {
+        font-size: 12px;
+        margin-bottom: 9%;
+        text-align: center;
+    }
+
+    .fa-download {
+        width: 47%;
+        margin-left: 26%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 6%;
+    }
+
+    .card {
+        width: 65%;
+    }
+
+    .descripcion-card {
+        font-size: 14px;
+    }
+
+    .container-texto-habilidades {
+        margin-bottom: 15%;
+    }
+
+    .descripcion-habilidades {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .Container-habilidades {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-habilidades {
+        padding: 65px;
+        gap: 8px;
+    }
+
+    .titulo-habilidades {
+        font-size: 11px;
+    }
+
+    .container-imagen-habilidades {
+        padding: 12px;
+    }
+
+    .titulo-container-estudios {
+        margin-bottom: 20%;
+    }
+
+    .logo-coderhouse {
+        width: 46px;
+        margin-left: 9%;
+    }
+
+    .container-estudio {
+        max-width: 78%;
+    }
+
+    .descripcion-card-estudio {
+        font-size: 11px;
+    }
+
+    .footer {
+        margin-top: 24%;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .btn-outline-danger {
+        width: 125px;
+    }
+
+    .modal-content {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .anchor-contactame {
+        height: 43px;
+    }
+
+    .descripcion-sobre-mi {
+        font-size: 11px;
+    }
+
+    .fa-download {
+        width: 54%;
+        margin-left: 23%;
+        margin-bottom: 4%;
+    }
+
+    .span-cv-download {
+        margin-top: 13%;
+    }
+
+    .titulo-mis-proyectos {
+        font-size: 25px;
+    }
+
+    .grid {
+
+        margin-top: 8%;
+        gap: 10%;
+    }
+
+    .card {
+        width: 84%;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .descripcion-card {
+        font-size: 13px;
+    }
+
+    .card-habilidades {
+        padding: 43px;
+        gap: 4px;
+        height: 98px;
+    }
+
+    .titulo-habilidades {
+        font-size: 12px;
+    }
+
+    .titulo-seccion-habilidades {
+        margin-bottom: 8%;
+        font-size: 26px;
+    }
+
+    .descripcion-habilidades {
+        margin-bottom: 6%;
+        font-size: 13px;
+    }
+
+    .card-habilidades {
+        padding: 58px;
+        gap: 13px;
+    }
+
+    .Container-habilidades {
+        margin-bottom: 16%;
+    }
+
+    .container-imagen-habilidades {
+        padding: 10px;
+    }
+
+    .titulo-container-estudios {
+        margin-bottom: 23%;
+    }
+
+    .container-estudio {
+        max-width: 88%;
+        margin: 8% auto;
+    }
+
+    .logo-coderhouse {
+        width: 42px;
+    }
+
+    .react {
+        gap: 70px;
+    }
+
+    .titulo-card-estudio {
+        font-size: 14px;
+    }
+
+    .descripcion-card-estudio {
+        font-size: 10px;
+    }
+
+    .footer {
+        margin-top: 27%;
+        height: 9vh;
+    }
+
+    .titulo-footer {
+        font-size: 19px;
+    }
+
+    .parrafo-footer {
+        font-size: 11px;
+    }
 }

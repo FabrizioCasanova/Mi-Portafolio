@@ -122,6 +122,7 @@ body[data-aos-duration="400"] [data-aos] {
 .home {
     width: 100%;
     height: 100vh;
+    /* padding: 36vh 0 38vh 0; */
     display: grid;
     justify-content: center;
     align-items: end;
@@ -237,7 +238,8 @@ a {
 
 .sobre-mi {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    padding: 8% 0 8% 0;
     display: flex;
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/Imagen\ 2.jpg);
     background-size: cover;
@@ -314,6 +316,10 @@ a {
     margin-top: 8%;
 }
 
+.linkCV{
+    display: contents;
+}
+
 /* Finalizan Estilos de "Sobre Mi" */
 
 
@@ -322,7 +328,8 @@ a {
 
 .mis-proyectos {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    padding: 0% 0 17% 0;   
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/Imagen\ 3.jpg);
     background-size: cover;
     border-top: 2px solid #f10117d9;
@@ -415,7 +422,8 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    padding: 12% 0 11% 0;
     gap: 7%;
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/Imagen\ 4.jpg);
     background-size: cover;
@@ -498,7 +506,7 @@ a {
     background-size: cover;
     border-top: 2px solid #f10117d9;
     width: 100%;
-    height: 88vh;
+    height: 88%;
     padding: 60px 0 0 0;
 }
 
@@ -569,9 +577,9 @@ a {
 
 .footer {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 2.7%;
     background: #080808;
-    height: 11vh;
+    height: 11%;
     border-top-left-radius: 21%;
     border-top-right-radius: 21%;
     display: flex;
@@ -618,6 +626,7 @@ span {
 
     .descripcion-habilidades {
         font-size: 13px;
+        margin-bottom: 17%;
     }
 
     .titulo-habilidades {
@@ -679,6 +688,10 @@ span {
         width: 29px;
         height: 29px;
     }
+
+    /* .home{
+        padding: 41vh 0 39vh 0;
+    } */
 
     .image-sobre-mi {
         width: 321px;
@@ -762,7 +775,7 @@ span {
 
     .footer {
         margin-top: 12%;
-        height: 10vh;
+        height: 10%;
     }
 
 }
@@ -777,6 +790,10 @@ span {
         margin-left: 5%;
     }
 
+    /* .home{
+        padding: 41vh 0 42vh 0;
+    } */
+
     .my-name {
         font-size: 40px;
     }
@@ -790,6 +807,10 @@ span {
         padding: 10px 12px;
         width: 46px;
         height: 43px;
+    }
+
+    .titulo-modal{
+        font-size: 27px;
     }
 
     .fa-envelope {
@@ -848,7 +869,7 @@ span {
     }
 
     .descripcion-habilidades {
-        margin-bottom: 1%;
+        margin-bottom: 23%;
     }
 
     .Container-habilidades {
@@ -925,6 +946,10 @@ span {
         height: 36px;
     }
 
+    /* .home{
+        padding: 41vh 0 44vh 0;
+    } */
+
     .my-name {
         font-size: 29px;
     }
@@ -942,6 +967,10 @@ span {
         padding: 8px 10px;
         width: 40px;
         height: 37px;
+    }
+
+    .titulo-modal{
+        font-size: 25px;
     }
 
     .fa-envelope {
@@ -967,6 +996,7 @@ span {
     .descripcion-sobre-mi {
         font-size: 12px;
         margin-bottom: 9%;
+        margin-top: 10%;
         text-align: center;
     }
 
@@ -1065,6 +1095,11 @@ span {
         margin-bottom: 4%;
     }
 
+    .titulo-modal{
+        font-size: 23px;
+    }
+
+
     .span-cv-download {
         margin-top: 13%;
     }
@@ -1076,11 +1111,11 @@ span {
     .grid {
 
         margin-top: 8%;
-        gap: 10%;
+        gap: 5%;
     }
 
     .card {
-        width: 84%;
+        width: 82%;
     }
 
     .card-title {
@@ -1151,7 +1186,7 @@ span {
 
     .footer {
         margin-top: 27%;
-        height: 9vh;
+        height: 9%;
     }
 
     .titulo-footer {

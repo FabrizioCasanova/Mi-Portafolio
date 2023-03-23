@@ -1197,3 +1197,130 @@ span {
         font-size: 11px;
     }
 }
+
+@media (max-width: 490px){
+
+.my-name{
+    font-size: 24px;
+}
+
+.my-description{
+    font-size: 9px;
+}
+
+.span-cv-download{
+    font-size: 10px;
+}
+
+.card{
+    width: 100%;
+}
+
+.descripcion-card{
+    font-size: 12px;
+}
+
+.titulo-seccion-habilidades{
+    margin-bottom: 10%;
+}
+
+.card-habilidades{
+    padding: 54px;
+    gap: 11px;
+}
+
+.titulo-habilidades{
+    font-size: 11px;
+}
+
+.container-imagen-habilidades{
+    font-size: 8px;
+}
+
+.container-estudio{
+    max-width: 90%;
+}
+
+.titulo-card-estudio{
+    font-size: 12px;
+}
+
+.descripcion-card-estudio{
+    font-size: 9px;
+}
+
+.titulo-footer{
+    font-size: 17px;
+    margin-bottom: 11px;
+}
+}
+
+@media (max-width: 412px){
+
+    .my-name{
+        font-size: 22px;
+    }
+
+    .titulo-mis-proyectos{
+        font-size: 22px;
+        margin-right: 7%;
+        margin-top: 9%;
+    }
+
+    .card{
+        width: 120%;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .fa-download{
+        width: 67%;
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
+
+    .titulo-seccion-habilidades{
+        font-size: 24px;
+    }
+
+    .descripcion-habilidades{
+        margin-bottom: 6%;
+        font-size: 11px;
+    }
+
+    .card-habilidades{
+        padding: 47px;
+        gap: 8px;
+    }
+
+    .titulo-habilidades{
+        font-size: 11px;
+    }
+
+    .container-imagen-habilidades {
+        padding: 7px;
+    }
+
+    .titulo-container-estudios{
+        margin-bottom: 20%;
+        font-size: 25px;
+    }
+
+    .container-estudio{
+        max-width: 93%;
+    }
+
+    .logo-coderhouse{
+        width: 40px;
+    }
+
+    .titulo-footer{
+        font-size: 15px;
+    }
+
+    .parrafo-footer{
+        font-size: 9px;
+    }
+}

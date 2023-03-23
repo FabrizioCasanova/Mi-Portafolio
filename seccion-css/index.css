@@ -1208,6 +1208,10 @@ span {
     font-size: 9px;
 }
 
+.titulo-modal{
+    font-size: 21px;
+}
+
 .span-cv-download{
     font-size: 10px;
 }
@@ -1259,6 +1263,18 @@ span {
 
     .my-name{
         font-size: 22px;
+    }
+
+    .btn-outline-danger{
+        width: 140px;
+    }
+
+    .titulo-modal{
+        font-size: 18px;
+    }
+
+    .parrafo-contactame{
+        font-size: 11px;
     }
 
     .titulo-mis-proyectos{

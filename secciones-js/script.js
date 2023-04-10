@@ -40,7 +40,7 @@ let image = document.getElementById('image')
 
 bandera.addEventListener('click', () => {
 
-    if (image.src == "https://negricases.com/es/wp-content/uploads/2019/12/idioma-ingles.png") {
+    if (image.src == "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png") {
 
         bandera.dataset.language = "en"
         image.src = "https://static.vecteezy.com/system/resources/thumbnails/009/767/106/small/spain-flag-flag-of-spain-illustration-free-vector.jpg"
@@ -50,7 +50,7 @@ bandera.addEventListener('click', () => {
     } else if (image.src == "https://static.vecteezy.com/system/resources/thumbnails/009/767/106/small/spain-flag-flag-of-spain-illustration-free-vector.jpg") {
 
         bandera.dataset.language = "es"
-        image.src = "https://negricases.com/es/wp-content/uploads/2019/12/idioma-ingles.png"
+        image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
 
         linkCv.href = "./mi-curriculum/Curriculum-Vitae-Fabrizio-Julian-Casanova-Español.pdf"
 

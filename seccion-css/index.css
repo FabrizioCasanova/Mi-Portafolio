@@ -346,10 +346,11 @@ a {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin-top: 6%;
-    padding: 0px 100px 0px 100px;
+    gap: 22px;
+    padding: 0px 100px 0px 50px;
 
     align-items: center;
 }
@@ -669,6 +670,12 @@ span {
 
     .navbar-brand {
         font-size: 14px;
+    }
+
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 100px 0px 100px;
+
     }
 
     .btn-outline-danger {
@@ -1009,6 +1016,10 @@ span {
     .grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 6%;
+    }
+
+    .mis-proyectos{
+        padding: 0% 0 35% 0;
     }
 
     .card {

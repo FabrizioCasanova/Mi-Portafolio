@@ -346,7 +346,7 @@ a {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     margin-top: 6%;
     gap: 22px;
@@ -620,6 +620,10 @@ span {
 
     .fa-download {
         width: 26%;
+    }
+
+    .grid{
+    grid-template-columns: repeat(2, 1fr);
     }
 
     .titulo-seccion-habilidades {
@@ -1015,7 +1019,7 @@ span {
 
     .grid {
         grid-template-columns: repeat(1, 1fr);
-        gap: 6%;
+        gap: 2%;
     }
 
     .mis-proyectos{
@@ -1123,7 +1127,7 @@ span {
     .grid {
 
         margin-top: 8%;
-        gap: 5%;
+
     }
 
     .card {
@@ -1296,7 +1300,7 @@ span {
     }
 
     .card{
-        width: 120%;
+        width: 150%;
     }
 
     .card-title{
